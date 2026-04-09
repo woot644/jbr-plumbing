@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>JBR Plumbing — Before vs After | Arclight Digital</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@600;700;800&display=swap" rel="stylesheet">
+<style>
+  @page { size: A4 portrait; margin: 0; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Inter', sans-serif;
+    background: #fff;
+    color: #1e293b;
+    padding: 24px 28px;
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #0F172A;
+  }
+  .logo { font-family: 'Outfit', sans-serif; font-weight: 800; font-size: 14px; color: #0F172A; letter-spacing: 1.5px; }
+  .logo span { color: #0369A1; }
+  .header-right { font-size: 9px; color: #64748b; text-align: right; }
+  .header-right strong { color: #0F172A; }
+
+  h1 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    color: #0F172A;
+    margin-bottom: 2px;
+  }
+  .subtitle { font-size: 9.5px; color: #64748b; margin-bottom: 10px; }
+
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .section {
+    background: #f8fafc;
+    border-radius: 6px;
+    padding: 10px 12px;
+    border: 1px solid #e2e8f0;
+  }
+  .section-title {
+    font-family: 'Outfit', sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    color: #0F172A;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    margin-bottom: 7px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #e2e8f0;
+  }
+
+  table { width: 100%; border-collapse: collapse; }
+  th {
+    font-size: 7.5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 3px 0;
+    text-align: left;
+    color: #64748b;
+  }
+  th.before { color: #dc2626; }
+  th.after { color: #16a34a; }
+  td {
+    font-size: 8px;
+    padding: 2.5px 0;
+    vertical-align: top;
+    line-height: 1.35;
+    border-bottom: 1px solid #f1f5f9;
+  }
+  td:first-child { font-weight: 500; color: #334155; width: 32%; padding-right: 4px; }
+  td.bad { color: #dc2626; }
+  td.good { color: #16a34a; font-weight: 600; }
+
+  .now-included {
+    margin-top: 10px;
+    background: #f0fdf4;
+    border: 1px solid #bbf7d0;
+    border-radius: 6px;
+    padding: 10px 12px;
+  }
+  .now-included .section-title { color: #16a34a; border-bottom-color: #bbf7d0; }
+  .pills { display: flex; flex-wrap: wrap; gap: 4px; }
+  .pill {
+    background: #dcfce7;
+    color: #166534;
+    font-size: 7.5px;
+    font-weight: 600;
+    padding: 3px 7px;
+    border-radius: 4px;
+  }
+
+  .footer {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 8px;
+    border-top: 1px solid #e2e8f0;
+  }
+  .footer-left { font-size: 8px; color: #64748b; }
+  .footer-right { font-size: 8.5px; color: #0F172A; font-weight: 600; }
+  .footer-right a { color: #0369A1; text-decoration: none; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="logo">ARCLIGHT <span>DIGITAL</span></div>
+  <div class="header-right">
+    <strong>Prepared for JBR Plumbing Brisbane</strong><br>
+    April 2026 &middot; arclightdigital.com.au
+  </div>
+</div>
+
+<h1>Website Audit: Before vs After</h1>
+<p class="subtitle">Side-by-side comparison of your current Replit-hosted site against a professionally rebuilt version.</p>
+
+<div class="grid">
+
+  <!-- PERFORMANCE -->
+  <div class="section">
+    <div class="section-title">Performance</div>
+    <table>
+      <tr><th></th><th class="before">Before</th><th class="after">After</th></tr>
+      <tr><td>Mobile Score</td><td class="bad">61/100</td><td class="good">~90+</td></tr>
+      <tr><td>First Paint</td><td class="bad">6.0s</td><td class="good">&lt;1s</td></tr>
+      <tr><td>Largest Paint</td><td class="bad">7.2s (Poor)</td><td class="good">&lt;2s</td></tr>
+      <tr><td>Interactive</td><td class="bad">7.2s</td><td class="good">&lt;1.5s</td></tr>
+      <tr><td>Unused JS</td><td class="bad">1.5s bloat</td><td class="good">None</td></tr>
+      <tr><td>Page Size</td><td class="bad">997 KB</td><td class="good">57 KB</td></tr>
+      <tr><td>Hosting</td><td class="bad">Free Replit</td><td class="good">.com.au ready</td></tr>
+    </table>
+  </div>
+
+  <!-- CONTENT & SEO -->
+  <div class="section">
+    <div class="section-title">Content & SEO</div>
+    <table>
+      <tr><th></th><th class="before">Before</th><th class="after">After</th></tr>
+      <tr><td>Word Count</td><td class="bad">257</td><td class="good">592 (2.3x)</td></tr>
+      <tr><td>Images</td><td class="bad">2 (1 broken)</td><td class="good">5 (all local)</td></tr>
+      <tr><td>Alt Text</td><td class="bad">0/2</td><td class="good">5/5</td></tr>
+      <tr><td>Internal Links</td><td class="bad">4</td><td class="good">19 (4.75x)</td></tr>
+      <tr><td>Schema Markup</td><td class="bad">None</td><td class="good">LocalBusiness + Service</td></tr>
+      <tr><td>Canonical URL</td><td class="bad">No</td><td class="good">Yes</td></tr>
+      <tr><td>OG Image</td><td class="bad">No</td><td class="good">Yes</td></tr>
+      <tr><td>Heading Structure</td><td class="bad">Messy</td><td class="good">1 H1, 5 H2, 12 H3</td></tr>
+      <tr><td>Hotlinked Images</td><td class="bad">2 (can break)</td><td class="good">0</td></tr>
+    </table>
+  </div>
+
+  <!-- TRUST & PROFESSIONALISM -->
+  <div class="section">
+    <div class="section-title">Trust & Professionalism</div>
+    <table>
+      <tr><th></th><th class="before">Before</th><th class="after">After</th></tr>
+      <tr><td>Domain</td><td class="bad">Replit subdomain</td><td class="good">.com.au ready</td></tr>
+      <tr><td>Builder Badge</td><td class="bad">"Made with Replit"</td><td class="good">Clean footer</td></tr>
+      <tr><td>Pricing Shown</td><td class="bad">$120/hr in hero</td><td class="good">Removed</td></tr>
+      <tr><td>Reviews</td><td class="bad">1 fake placeholder</td><td class="good">3 with star ratings</td></tr>
+      <tr><td>Credentials</td><td class="bad">No QBCC/ABN</td><td class="good">QBCC badge in hero</td></tr>
+      <tr><td>Gallery</td><td class="bad">Stock photos</td><td class="good">Professional imagery</td></tr>
+      <tr><td>Service Areas</td><td class="bad">Not listed</td><td class="good">10 Brisbane suburbs</td></tr>
+      <tr><td>Contact Form</td><td class="bad">Basic</td><td class="good">Service type dropdown</td></tr>
+    </table>
+  </div>
+
+  <!-- WHAT'S MISSING -->
+  <div class="section">
+    <div class="section-title">Was Completely Missing</div>
+    <table>
+      <tr><th></th><th class="before">Before</th><th class="after">After</th></tr>
+      <tr><td>Schema Markup</td><td class="bad">No</td><td class="good">Full LocalBusiness</td></tr>
+      <tr><td>Aggregate Rating</td><td class="bad">No</td><td class="good">4.7 stars in schema</td></tr>
+      <tr><td>Service Schema</td><td class="bad">No</td><td class="good">7 services listed</td></tr>
+      <tr><td>Opening Hours</td><td class="bad">No</td><td class="good">In structured data</td></tr>
+      <tr><td>Geo Coordinates</td><td class="bad">No</td><td class="good">Yes (local search)</td></tr>
+      <tr><td>Mobile Responsive</td><td class="bad">Partial</td><td class="good">Full breakpoints</td></tr>
+      <tr><td>Trust Signals</td><td class="bad">No</td><td class="good">Licensed, 15yr, Reviews</td></tr>
+      <tr><td>Meta Robots</td><td class="bad">No</td><td class="good">Yes</td></tr>
+    </table>
+  </div>
+
+</div>
+
+<!-- NOW INCLUDED -->
+<div class="now-included">
+  <div class="section-title">What the rebuilt site includes</div>
+  <div class="pills">
+    <span class="pill">Custom .com.au domain</span>
+    <span class="pill">LocalBusiness schema</span>
+    <span class="pill">Service schema (7 services)</span>
+    <span class="pill">AggregateRating (4.7 stars)</span>
+    <span class="pill">Geo coordinates</span>
+    <span class="pill">10 service area suburbs</span>
+    <span class="pill">Opening hours in schema</span>
+    <span class="pill">OG image for social sharing</span>
+    <span class="pill">Canonical URL</span>
+    <span class="pill">5 local images with alt text</span>
+    <span class="pill">19 internal links</span>
+    <span class="pill">QBCC badge</span>
+    <span class="pill">Mobile-first responsive</span>
+    <span class="pill">Sub-2s load time</span>
+    <span class="pill">57KB page weight (vs 997KB)</span>
+    <span class="pill">Zero external dependencies</span>
+  </div>
+</div>
+
+<div class="footer">
+  <div class="footer-left">This report was prepared specifically for JBR Plumbing Brisbane by Arclight Digital. We've already built a working prototype — ask to see it live.</div>
+  <div class="footer-right">Zac — <a href="mailto:sales@arclightdigital.com.au">sales@arclightdigital.com.au</a> &middot; arclightdigital.com.au</div>
+</div>
+
+</body>
+</html>
